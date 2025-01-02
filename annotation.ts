@@ -8,6 +8,12 @@ let isActive: boolean = true;
 let numbers: number[] = [1, 2, 3];
 let names: Array<string> = ["John", "Jane"];
 
+//Mutidimensional Array
+const matrix: number[][] = [
+  [1, 2],
+  [3, 4],
+];
+
 // Parameter and return type annotations
 function greet(name: string): string {
   return `Hello, ${name}!`;
